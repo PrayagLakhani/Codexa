@@ -1,0 +1,108 @@
+/* Global font and reset */
+.login-wrapper {
+  display: flex;
+  height: 100vh;
+  background-color: #1e1e1e;
+}
+
+.login-left,
+.login-right {
+  flex: 1;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1e1e1e;
+  color: white;
+}
+
+/* Container layout */
+.login-page {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Left form section */
+.login-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+}
+
+.login-left h1 {
+  font-size: 36px;
+  color: white;
+}
+
+.login-left input {
+  background: transparent;
+  border: 2px solid #00ffae;
+  color: #00ffae;
+  padding: 12px;
+  width: 400px;
+  font-size: 18px;
+  outline: none;
+}
+
+.login-btn {
+  background-color: #00ffae;
+  border: none;
+  padding: 12px 30px;
+  font-size: 18px;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 8px;
+  width: 180px;
+  text-align: center;
+}
+
+.signup-text {
+  color: white;
+  font-size: 18px;
+}
+
+.signup-link {
+  color: #00ffae;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+/* Right illustration section */
+.login-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-right img {
+  width: 500px;
+  max-width: 90%;
+}
+
+/* .title {
+  margin-top: 20px;
+  text-align: center;
+  color: #00ffae;
+  font-size: 30px;
+} */

@@ -1,0 +1,87 @@
+.about-page {
+  background-color: #1e1e1e;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  font-family: 'JetBrains Mono', monospace;
+  margin-top: 70px; /* Adjust this value to match the Navbar's height */
+}
+
+.about-container {
+  max-width: 800px;
+  background-color: #2a2a2a;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  margin-top: 380px; /* Adjust this value to match the Navbar's height */
+}
+
+.about-title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #00ffae;
+}
+
+.about-description {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  text-align: justify;
+}
+
+.about-subtitle {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #00e29e;
+}
+
+.about-features {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.about-features li {
+  font-size: 1.2rem;
+  margin-bottom: 0.8rem;
+  display: flex;
+  align-items: center;
+}
+
+.about-features li::before {
+  content: "✔️";
+  margin-right: 0.5rem;
+  color: #00ffae;
+}
+
+.about-links {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.about-links li {
+  margin-bottom: 0.8rem;
+}
+
+.about-links a {
+  color: #00ffae;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.about-links a:hover {
+  text-decoration: underline;
+}
+
+.highlight {
+  color : #00ffae;
+  font-weight: bold;
+}

@@ -1,0 +1,87 @@
+Global reset and base styling
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1e1e1e;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+/* Container layout */
+.signup-page {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Left form section */
+.signup-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+}
+
+.signup-left h1 {
+  font-size: 36px;
+  color: white;
+}
+
+.signup-left input {
+  background: transparent;
+  border: 2px solid #00ffae;
+  color: #00ffae;
+  padding: 12px;
+  width: 400px;
+  font-size: 18px;
+  outline: none;
+}
+
+.signup-left button {
+  background-color: #00ffae;
+  border: none;
+  padding: 12px 30px;
+  font-size: 18px;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 8px;
+  width: 180px;
+  text-align: center;
+}
+
+/* Link text styling */
+.login-text {
+  font-size: 18px;
+}
+
+.login-text span {
+  color: #00ffae;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+/* Right illustration section */
+.signup-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.signup-right img {
+  width: 500px;
+  max-width: 90%;
+}
+

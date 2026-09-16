@@ -1,0 +1,84 @@
+.login-btn {
+  background-color: #00ffae;
+  border: none;
+  /* padding: 12px 30px; */
+  font-size: 18px;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* padding 0 */
+.navbar { 
+  padding: 0;
+}
+
+/* Navbar brand name */
+
+/* nav-items*/
+.navbar-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px; /* Added space between items */
+  padding: 0px 20px;
+  list-style: none;
+  margin: 0;
+  font-size: 24px;
+}
+
+.navbar-brand {
+  /* font-family: "Bodoni 11", monospace, sans-serif; */
+  /* padding : 0 0px; */
+  font-size: 30px;
+  font-weight: bold;
+  /* color: #00ffae; */
+}
+
+.logout-modal {
+  background-color: #2a2a2a;
+  color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+}
+
+.logout-modal-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+
+.primary-btn {
+  background-color: #00ffae;
+  color: black;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.secondary-btn {
+  background-color: #f55;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}

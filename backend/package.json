@@ -1,0 +1,27 @@
+{
+  "name": "codexa-backend",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js",
+    "yjsserver": "npx y-websocket-server --port 1234 --host 0.0.0.0 --cors '*'"
+  },
+  "dependencies": {
+    "@y/websocket-server": "^0.1.1",
+    "axios": "^1.8.4",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.12.0",
+    "nodemon": "^3.1.9",
+    "socket.io": "^4.8.1",
+    "ws": "^8.18.1",
+    "y-monaco": "^0.1.6",
+    "y-websocket": "^3.0.0",
+    "yjs": "^13.6.26"
+  }
+}
